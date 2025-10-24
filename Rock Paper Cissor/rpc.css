@@ -1,0 +1,256 @@
+body{
+    background-image: url("images\\6849391_3425081.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#rpc
+{
+   background-image: url("images\\12804207_5073414.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: aliceblue;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+width: 100%;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 1000;
+}
+#rpc h1{
+    font-size: 45px;
+}
+#navbox
+{
+    background-color: black;
+   height: 30px;
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   width: 100%;
+   position: fixed;
+top: 100px;
+left: 0;
+z-index: 1000;
+
+}
+#navbox li
+{
+list-style-type: none;
+
+}
+#navbox li a
+{
+text-decoration: none;
+color: aliceblue;
+font-size: larger;
+
+}
+#content
+{
+    backdrop-filter: blur(100px);
+    margin-top: 150px;
+    width: 1000px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 30px;
+
+}
+.boxes
+{
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+
+}
+#btncontainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+}
+.x
+{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 200px;
+height: 200px;
+border-radius: 30px;
+}
+.btns
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(34, 36, 36);
+    border: 3px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.btns:hover
+{
+  animation-name: glow1; 
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+ 
+}
+.btns:active
+{
+  animation-name: glow2; 
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+ 
+}
+@keyframes glow1
+{
+    from{box-shadow: 3px 3px 3px gold,-3px -3px 3px gold;}
+    to{box-shadow: 3px 3px 3px gold,-3px -3px 3px gold;}
+}
+@keyframes glow2
+{
+    from{box-shadow: 3px 3px 3px rgb(0, 183, 255),-3px -3px rgb(0, 183, 255);}
+    to{box-shadow: 3px 3px 3px rgb(0, 183, 255),-3px -3px 3px rgb(0, 183, 255);}
+}
+.btnimges
+{
+     width: 100%;
+    height: 100%;
+     border-radius: 30px;
+}
+#sub
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+#vs
+{
+    width: 150px;
+    height: 150px;
+}
+#progresscontent
+{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20px;
+    height: auto;
+
+}
+#barlabels
+{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     gap:412px;
+     height: auto;
+     margin-top: 0px;
+}
+.pros
+{
+    height: px;
+   color: rgb(26, 227, 227);
+}
+.prodivs
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+.imgs{
+width: 100%;
+height: 100%;
+border-radius: 28px;
+}
+#xy 
+{
+  background-color: black;
+  color: red;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  border-radius: 30px;
+}
+#xz 
+{
+  background-color: black;
+  color: rgb(64, 255, 0);
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  border-radius: 30px;
+  flex-direction: column;
+  gap: 20px;
+}
+#finallabel
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+#btn22
+{
+    font-weight: bolder;
+    background-color: black;
+    color: aqua;
+    border-radius: 5px;
+    height: 25px;
+}
+#btn22:hover
+{
+    color: yellow;
+}
+@media(max-width:450px)
+{
+    #btncontainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    flex-direction: column;
+}
+#content
+{
+    backdrop-filter: blur(100px);
+    margin-top: 150px;
+    width: auto;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 30px;
+
+}
+}
